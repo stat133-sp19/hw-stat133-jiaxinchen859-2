@@ -80,17 +80,6 @@ Below is the shot charts by player.
 
 <img src="../images/gsw-shot-charts.png" width="80%" style="display: block; margin: auto;" />
 
-    ## 
-    ## Attaching package: 'dplyr'
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     filter, lag
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
-
 **2PT Effective Shooting Percentage by Player**
 
     ## # A tibble: 5 x 4

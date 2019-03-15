@@ -94,7 +94,7 @@ Below is the shot charts by player.
 knitr::include_graphics('../images/gsw-shot-charts.png')
 ```
 
-```{r echo=FALSE}
+```{r setup, include=FALSE, echo=FALSE}
 library(dplyr)
 # Import the data
 shots_data <- read.csv('../data/shots-data.csv')
