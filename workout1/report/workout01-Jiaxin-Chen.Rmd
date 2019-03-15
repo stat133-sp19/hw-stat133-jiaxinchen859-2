@@ -25,6 +25,7 @@ What makes the Golden State Warriors so successful in the 2016-17 NBA season? Th
 ```{r out.width='80%', echo=FALSE, fig.align='center'}
 knitr::include_graphics('../images/GSW.jpg')
 ```
+
 L to R: Stephen Curry, Draymond Green, Kevin Durant, Klay Thompson and Andre Iguodala of the Golden State Warriors
 
 

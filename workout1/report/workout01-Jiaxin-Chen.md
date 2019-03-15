@@ -19,7 +19,9 @@ The 2016-17 NBA season was one of the most exciting seasons in National Basketba
 
 What makes the Golden State Warriors so successful in the 2016-17 NBA season? Their perfect teamwork played an important role in their success. In the meanwhile, each of the Warriors was doing an amazing job as well. We are going to introduce the best five players of the Golden State Warriors: Stephen Curry, Kevin Durant, Klay Thompson, Draymond Green, and Andre Iguodala.
 
-<img src="../images/GSW.jpg" width="80%" style="display: block; margin: auto;" /> L to R: Stephen Curry, Draymond Green, Kevin Durant, Klay Thompson and Andre Iguodala of the Golden State Warriors
+<img src="../images/GSW.jpg" width="80%" style="display: block; margin: auto;" />
+
+L to R: Stephen Curry, Draymond Green, Kevin Durant, Klay Thompson and Andre Iguodala of the Golden State Warriors
 
 #### **background**
 
@@ -134,7 +136,7 @@ Below is the shot charts by player.
 
 #### **discussion and conclusion**
 
-In conclusion, we analyzed the player's performance by three aspects of effective percentage which are 2PT effective percentage, 3PT effective percentage, and overall efective percentage. Based on the effective percentages, it is obvious to understand their abilities of shooting. The Golden State Warriors had done an amazing job in the 2016-17 NBA season. Not only the five players above (Stephen Curry, Kevin Durant, Klay Thompson, Draymond Green, and Andre Iguodala) were doing a great job, but every player of the Golden State Warriors was excellent and talented. Excellent teamwork was the key point for the success of Golden State Warriors in the 2016-17 NBA season.
+In a word, we analyzed the player's performance by three aspects of effective percentage which are 2PT effective percentage, 3PT effective percentage, and overall efective percentage. Based on the effective percentages, it is obvious to understand their abilities of shooting. The Golden State Warriors had done an amazing job in the 2016-17 NBA season. Not only the five players above (Stephen Curry, Kevin Durant, Klay Thompson, Draymond Green, and Andre Iguodala) were doing a great job, but every player of the Golden State Warriors was excellent and talented. Excellent teamwork was the key point for the success of Golden State Warriors in the 2016-17 NBA season.
 
 #### **Reference**
 
