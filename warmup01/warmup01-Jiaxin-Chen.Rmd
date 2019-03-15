@@ -1,0 +1,109 @@
+---
+title: 'Warmup 01: Markdown Syntax'
+author: "Jiaxin Chen"
+date: "1/28/2019"
+output: github_document
+---
+
+
+### Star Wars
+
+#### Kazuda Xiono
+
+> "_In my mind, that's what I was—Kazuda Xiono, the best starfighter pilot in  the galaxy._" 
+> 
+>  -_Kazuda Xiono, to Poe Dameron and Neeku Vozo_
+
+![](https://vignette.wikia.nocookie.net/starwars/images/a/a3/Kazuda.jpg/revision/latest?cb=20180830051228)
+
+***
+
+Description | Value
+----------- | -----
+Homeworld | Hosnian Prime
+Born | 14 ABY, Hosnian Prime
+Species | Human
+Gender | Male
+Hair color | Black
+Eye color | Brown
+Skin color | Light
+
+
+***
+
+### Cooking Recipe
+
+#### Root Vegetable Gratin 
+
+![](https://c5.staticflickr.com/6/5527/30782514172_5aba0e274d_z.jpg)
+
+##### Ingredients
+
+* Olive oil
+* 1 large onion, sliced (1 1/2 cups)
+* 2 cups (1/4-inch-sliced) fennel, top and core, if thick, removed
+* 3 cloves garlic, minced (1 tablespoon)
+* 1 pound sweet potatoes, peeled and sliced 1/4-inch thick
+* 1 pound celery root, peeled and sliced 1/4-inch thick
+* 1 pound yukon gold, peeled and sliced 1/4-inch thick
+* 1 cup heavy cream (see Note up top)
+* 2 cups chicken or vegetable stock or brother
+* 2 cups grated gruyere cheese (6 ounces with rind)
+* 2 teaspoons minced fresh thyme leaves
+* Kosher salt and freshly ground black pepper
+* 2 1/2 cups coarse fresh breadcrumbs or panko (what I used)
+* 2 to 3 tablespoons melted butter
+
+##### "Special Kitchen Tools"
+
+* Two pans
+  * one 3-quart baking dish (freezing the larger one until you need it)
+  * one 1-quart baking dish
+* oven
+
+##### Steps of making Root Vegetable Gratin
+
+1. Keep 2 cups chicken broth and 1 cup cream in the fridge. 
+2. Heat your oven to 350°F. 
+3. Butter a 13×9-inch deep baking dish.
+4. Heat 2 tablespoons olive oil in a large deep (ideally 12-inch) saute pan over medium heat and add the onions and fennel. 
+5. Cooking, tossing occasionally, until lightly browned and tender, about 10 minutes.
+6. Add the garlic and cook for one minute more.
+7. combine the onion mixture with remaining vegetables, cream, stock, cheese, thyme, 1      tablespoon kosher salt and 1 1/2 teaspoons black pepper. 
+8. Pour mixture into prepared dish and spread until even.
+9. Mix breadcrumbs and butter until evenly coated and distribute evenly over top of dish.
+10. Bake 1 1/2 hours uncovered, or until vegetables are very tender when tested with a small knife and the top is browned and bubbly. 
+
+##### Variations of the recipe
+Garten's original recipe calls for 1/2 cup chicken broth and 2 1/2 cups heavy cream. Because do not like gratins to be this rich and find much less cream goes a long way to impart richness, but not the kind that muffles flavors, so  used 2 cups broth and 1 cup cream. You can add 1 cup of mascarpone and/or creme fraiche in a gratin.
+
+***
+
+### Euclidean Distance
+
+#### Definition
+***
+
+The **Euclidean distance** between points **p** and **q** is the length of the line segment connecting them ($\bar{pq}$)
+
+In [Cartesian coordinates](https://en.wikipedia.org/wiki/Cartesian_coordinate_system), if **p** = (p1, p2,..., pn) and **q** = (q1, q2,..., qn) are two points in Euclidean n-space, then the distance (d) from **p** to **q**, or from **q** to **p** is given by the [Pythagorean formula](https://en.wikipedia.org/wiki/Pythagorean_theorem):
+
+\begin{equation} \label{eql1}
+\begin{split}
+   
+d(\boldsymbol{p}, \boldsymbol{q}) = d(\boldsymbol{q}, \boldsymbol{p}) & = \sqrt{(q_1-p_1)^2+(q_2-p_2)^2+\dots+(q_n-p_n)^2} \\
+& = \sqrt{ \sum_{i=1}^{n} (q_i - p_i)^2 } 
+
+\end{split}
+\end{equation}
+
+The position of a point in a Euclidean n-space is a [Euclidean vector](https://en.wikipedia.org/wiki/Euclidean_vector). So, **p** and **q** may be represented as Euclidean vectors, starting from the origin of the space (initial point) with their tips (terminal points) ending at the two points. The [Euclidean norm](https://en.wikipedia.org/wiki/Norm_(mathematics)#Euclidean_norm), or **Euclidean length**, or **magnitude** of a vector measures the length of the vector:
+
+\|**p**\|  = $\sqrt{p_1^2 + p_2^2 + \dots + p_n^2}$ = $\sqrt{\boldsymbol{p}\cdot \boldsymbol{p}}$
+
+
+where the last expression involves the [dot product](https://en.wikipedia.org/wiki/Dot_product).
+
+
+
+
