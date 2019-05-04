@@ -3,19 +3,47 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of binomial is to implement functions for calculating probabilities of a Binomial random variable, and related calculations such as the probability distribution, the expected value, variance, etc.
+## Overview
+***
+
+`"binomial"` is a minimal R package that provides functions to calculate probabilities of a binomial random variable, and related calculations. 
+
+* 'bin_choose()` calculates the number of combinations in which k successes can occur in n trials.
+* `bin_probability()` calculates the probability of k successes in n trials of a binomial distribution 
+* `bin_distribution()` creates a data frame with the binomial probability distribution
+* `bin_cumulative()` creates a data frame with the binomial cumulative probability
+* `bin_variable()` creates a binomial random variable object
+* `bin_mean()` calculates the expected value of a binomial distribution
+* `bin_variance()` calculates the variance of a binomial distribution
+* `bin_mode()` calculates the mode of a binomial distribution
+* `bin_skewness` calculates the skewness of a binomial distribution
+* `bin_kurtosis` calculates the kurtosisof a binomial distribution
+* `plot()` method for `"bin_probability"` to plot the probability histogram of a binomial distribution and for `"bin_cumulative"` to graph the cumulative distribution of a binomial distribution
+* `print()` method for `"bin_variable"` to print the content of an object
+"binvar"
+* `summary()` method for `"bin_variable"` to get a full summary description of an object "binvar"
+
+## Motivation
+***
+The goal of binomial is to implement functions for calculating probabilities of a binomial random variable, and related calculations such as the probability distribution, the expected value, variance, etc.
 
 ## Installation
-
-You can install the released version of binomial from [CRAN](https://CRAN.R-project.org) with:
-
+***
+Install the development version from GitHub via the package `"devtools"`:
 ``` r
+# development version from GitHub:
 install.packages("binomial")
+
+# install "binomial" (without vignettes)
+devtools::install_github("stat133-sp19/hw-stat133-jiaxinchen859-2/binomial")
+
+# install "cointoss" (with vignettes)
+devtools::install_github("stat133-sp19/hw-stat133-jiaxinchen859-2/binomial", build_vignettes = TRUE)
+
 ```
 
 ## Usage
-
-This is a basic example which shows you how to solve a common problem:
+***
 
 ``` r
 library(binomial)
@@ -24,11 +52,9 @@ library(binomial)
 bin_choose(n = 5, k = 2)
 #> 10
 
-
 # binomial probability
 bin_probability(success = 2, trials = 5, prob = 0.5)
 #> 0.3125
-
 
 # binomial probability distribution
 bin_distribution(trials = 5, prob = 0.5)
@@ -77,6 +103,6 @@ bin_skewness(10, 0.3)
 #>  0.2760262
 
 bin_kurtosis(10, 0.3)
-#>   -0.1238095
+#>  -0.1238095
 ```
 
