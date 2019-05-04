@@ -17,9 +17,3 @@ a list with two elements: trials and prob
 \description{
 create a binomial random variable object
 }
-\examples{
-bin1 <- bin_variable(trials = 10, p = 0.3)
-binsum1 <- summary(bin1)
-binsum1
-
-}

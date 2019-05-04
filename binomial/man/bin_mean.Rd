@@ -19,6 +19,4 @@ calculate the expected value of a binomial distribution
 }
 \examples{
 bin_mean(10, 0.3)
-
-
 }

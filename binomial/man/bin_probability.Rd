@@ -14,7 +14,7 @@ bin_probability(success, trials, prob)
 \item{prob}{probability of success}
 }
 \value{
-return the probability of k successes in n trials of a binomial distribution
+the probability of k successes in n trials of a binomial distribution
 }
 \description{
 calculate the probability of k successes in n trials of a binomial distribution
