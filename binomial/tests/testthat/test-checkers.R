@@ -1,6 +1,6 @@
 library(testthat)
 
-context("Check private checker functions")
+context("Check private checker functions with ok arguments: prob, trials, success")
 
 test_that("check_prob with ok probability", {
   expect_true(check_prob(0))
@@ -14,8 +14,6 @@ test_that("check_prob with ok probability", {
 })
 
 
-context("Check the number of trials")
-
 test_that("check_trials with ok number of trials", {
   expect_true(check_trials(10))
   expect_length(check_trials(10), 1)
@@ -25,15 +23,11 @@ test_that("check_trials with ok number of trials", {
 
 })
 
-
-context("Check the number of successes")
-
 test_that("check_success with ok number of successes", {
   expect_true(check_success(5, 10))
   expect_is(check_success(5, 10), 'logical')
   expect_error(check_success(10, 5), 'invalid success value')
   expect_error(check_success(5.5, 10), 'invalid success value')
   expect_error(check_success(-5, 10), 'invalid success value')
-
 
 })

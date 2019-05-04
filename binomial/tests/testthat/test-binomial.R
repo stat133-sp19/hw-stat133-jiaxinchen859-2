@@ -21,52 +21,22 @@ test_that("check bin_probability function works as expected", {
   expect_error(bin_probability(success = -2, trials = 5, prob = 2), 'invalid prob value')
 })
 
+test_that("check bin_distribution function works as expected", {
+  expect_equal(bin_distribution(trials = 5, prob = 0.5)$success, 0:5)
+  expect_equal(bin_distribution(trials = 5, prob = 0.5)$probability, c(0.03125, 0.15625, 0.31250, 0.31250, 0.15625, 0.03125))
+  expect_is(bin_distribution(trials = 5, prob = 0.5), c("bindis", "data.frame"))
+  expect_error(bin_distribution(trials = 5, prob = -0.5), 'invalid prob value')
+  expect_error(bin_distribution(trials = 5.5, prob = 0.5), 'invalid trials value')
+})
+
 
 test_that("check bin_cumulative function works as expected", {
-  expect_is(bin_cumulative(trials = 5, prob = 0.5), c("bincum", "data.frame"))
   expect_equal(bin_cumulative(trials = 5, prob = 0.5)$success, 0:5)
   expect_equal(bin_cumulative(trials = 5, prob = 0.5)$probability, c(0.03125, 0.15625, 0.31250, 0.31250, 0.15625, 0.03125))
   expect_equal(bin_cumulative(trials = 5, prob = 0.5)$cumulative, c(0.03125, 0.18750, 0.50000, 0.81250, 0.96875, 1.00000))
-})
-
-
-test_that("check bin_variable function works as expected", {
-  expect_is(bin_variable(trials = 10, prob = 0.3), "binvar")
-
-})
-
-
-test_that("check bin_mean function works as expected", {
-  expect_equal(bin_mean(10, 0.3), 3)
-  expect_is(bin_mean(10, 0.3), 'numeric')
-  expect_length(bin_mean(10, 0.3), 1)
-})
-
-
-
-test_that("check bin_variance function works as expected", {
-  expect_equal(bin_variance(10, 0.3), 2.1)
-  expect_is(bin_variance(10, 0.3), 'numeric')
-  expect_length(bin_variance(10, 0.3), 1)
-})
-
-
-test_that("check bin_mode function works as expected", {
-  expect_equal(bin_mode(10, 0.3), 3)
-  expect_is(bin_mode(10, 0.3), 'numeric')
-  expect_length(bin_mode(10, 0.3), 1)
-})
-
-test_that("check bin_skewness function works as expected", {
-  expect_equal(signif(bin_skewness(10, 0.3), 3), signif(0.2760262, 3))
-  expect_is(bin_skewness(10, 0.3), 'numeric')
-  expect_length(bin_skewness(10, 0.3), 1)
-})
-
-test_that("check bin_kurtosis function works as expected", {
-  expect_equal(signif(bin_kurtosis(10, 0.3), 3), signif(-0.1238095, 3))
-  expect_is(bin_kurtosis(10, 0.3), 'numeric')
-  expect_length(bin_kurtosis(10, 0.3), 1)
+  expect_is(bin_cumulative(trials = 5, prob = 0.5), c("bincum", "data.frame"))
+  expect_error(bin_cumulative(trials = 5, prob = -0.5), 'invalid prob value')
+  expect_error(bin_cumulative(trials = 5.5, prob = 0.5), 'invalid trials value')
 })
 
 
